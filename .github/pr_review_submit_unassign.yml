@@ -1,0 +1,4 @@
+commentUnassign: '感恩 @{reviwer} 幫忙看 pr'
+commentAssign: '現在將 pr 交還給苦主 @{repoOwner}'
+unAssignReviwer: true
+assignPrOwner: true
