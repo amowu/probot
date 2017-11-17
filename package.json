@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "pr-review-submit-unassign": "git+https://github.com/jiminycricket/pr-review-submit-unassign.git#v1.1.0",
+    "assign-in-comment": "git+https://github.com/henry40408/assign-in-comment.git#v1.0.0",
     "probot": "^3.0.0"
   },
   "devDependencies": {
@@ -29,7 +30,8 @@
   },
   "probot": {
     "plugins": [
-      "pr-review-submit-unassign"
+      "pr-review-submit-unassign",
+      "assign-in-comment"
     ]
   }
 }
